@@ -1,0 +1,28 @@
+{
+  "meta": {
+    "main": {
+      "title": "Metame",
+      "description": "Metame"
+    },
+    "team": {
+      "title": "Team",
+      "description": "Team"
+    },
+    "notFound": {
+      "title": "Page not found",
+      "description": "Page doesn't exist"
+    }
+  },
+  "layout": {
+    "nav": {
+      "main": "Main",
+      "team": "Team"
+    },
+    "footer": {}
+  },
+  "not_found": {
+    "message": "Sorry, this page does not exist",
+    "redirect": "You will be redirected to home page in 5 seconds"
+  },
+  "errorMessages": {}
+}
