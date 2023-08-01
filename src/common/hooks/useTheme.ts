@@ -8,7 +8,7 @@ export const useTheme = () => {
   console.log('themeMode', themeMode);
 
   useEffect(() => {
-    const theme = localStorage.getItem('metame_theme') ?? null;
+    const theme = localStorage.getItem('odinokun_theme') ?? null;
     const storedTheme = theme !== null ? JSON.parse(theme) : null;
 
     if (storedTheme !== null) setThemeMode(storedTheme);
@@ -17,7 +17,7 @@ export const useTheme = () => {
   const toggleTheme = useCallback(() => {
     setThemeMode(themeMode === 'dark' ? 'light' : 'dark');
 
-    localStorage.setItem('metame_theme', JSON.stringify(themeMode));
+    localStorage.setItem('odinokun_theme', JSON.stringify(themeMode));
   }, [themeMode]);
 
   return {
